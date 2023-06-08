@@ -26,7 +26,7 @@ and that they both share the 3rd one, where tasks structure is described.
 ```zsh
 docker-compose up 
 ```
-4. Run containers using Docker Swarm
+   Run containers using Docker Swarm
 ```zsh
 docker-compose build
 docker swarm init 
