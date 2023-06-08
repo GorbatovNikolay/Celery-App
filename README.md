@@ -22,11 +22,13 @@ and that they both share the 3rd one, where tasks structure is described.
 ### Usage
 1. Install Docker compose - [official guide](https://docs.docker.com/compose/install/)
 2. Clone this project
-3. Run containers using docker-compose
+3. Run containers 
+
+Run containers using docker-compose
 ```zsh
 docker-compose up 
 ```
-   Run containers using Docker Swarm
+Run containers using Docker Swarm
 ```zsh
 docker-compose build
 docker swarm init 
@@ -35,7 +37,7 @@ docker stack deploy --compose-file=docker-compose.yml distributed_calculation
 # docker stack rm distributed_calculation  
 # docker swarm leave --force
 ```
-5. Go to `'http://127.0.0.1:8000/docs'` to try out API 
+4. Go to `'http://127.0.0.1:8000/docs'` to try out API 
 or visit `'http:/127.0.0.1:5000'` to observe Celery workers in Flower
 
 ### API reference
